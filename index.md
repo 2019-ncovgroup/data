@@ -123,8 +123,8 @@ We generate molecular descriptors using [Mordred](<https://github.com/mordred-de
 ### Code
 {: .no_toc }
 
-Code to help users understand the methodology and use the data are included in the following repository.
-<a href="https://github.com/globus-labs/covid-analyses">Globus Labs Covid Analyses</a>
+Code to help users understand the methodology and use the data are included in the 
+<a href="https://github.com/globus-labs/covid-analyses">Globus Labs Covid Analyses</a> GitHub repository.
 
 ##  Data Extraction from Literature to Identify Antiviral Molecules
 The data extraction team is working to extract a set of known antiviral molecules that have been previously tested against coronaviruses. 
@@ -155,13 +155,13 @@ Data storage and computational support for this research project has been genero
 
 ### Petrel Data Service at the Argonne Leadership Computing Facility (ALCF)
 {: .no_toc }
-This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
+This research used resources of the Argonne Leadership Computing Facility, a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
 
 [Petrel](https://press3.mcs.anl.gov/petrel/){: .btn .btn-outline}
 
 ### Theta at the Argonne Leadership Computing Facility (ALCF)
 {: .no_toc }
-This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
+This research used resources of the Argonne Leadership Computing Facility, a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
 
 [ALCF](https://www.alcf.anl.gov){: .btn .btn-outline}
 
@@ -178,6 +178,7 @@ This research used resources of the Argonne Leadership Computing Facility, which
 ### Data and Computing Infrastructure
 {: .no_toc }
 Many aspects of the data and computing infrastructure have been leveraged from other projects including but not limited to:
+
 Data processing and computation:
  * <a href="https://parsl-project.org">Parsl</a>: parallel scripting libarary (parsl-project.org, NSF: 1550588)
  * <a href="https://www.funcx.org">funcX</a>: distributed function as a service platform (funcX.org)
