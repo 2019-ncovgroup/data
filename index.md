@@ -104,13 +104,15 @@ ZIN | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-96
 obabel {filename} -O can_{filename} -ocan -e
 ```
 
-### Generating Fingerprints
+### Computing Fingerprints
 {: .no_toc }
+
+Fingerprints are computed for each of the molecules using <a href="https://www.rdkit.org">RDKit</a> to create representative bit vectors.
 
 
 ### Calculating Descriptors
 {: .no_toc }
-We generate molecular descriptors using [Mordred](<https://github.com/mordred-descriptor/mordred). The collected descriptors include both 2D and 3D descriptors.
+We generate molecular descriptors using [Mordred](<https://github.com/mordred-descriptor/mordred). The collected descriptors (~1800 for each molecule) include both 2D and 3D descriptors.
 
 ### Code
 {: .no_toc }
