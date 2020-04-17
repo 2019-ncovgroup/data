@@ -78,7 +78,7 @@ Notes:
 Follow the links below to access canonical SMILES, molecular fingerprints, descriptors, and images (png format) for each dataset.
 
 Key | Canonical SMILES | Fingerprints | Descriptors | Images
------ | --- | --- | ---  | ---
+----- | :-: | :-: | :-:  | :-:
 CAS | [1 file, 7 MB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/canonical_smiles/CAS/) | [2 files, 8 MB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/CAS/) | [2 files, 8 MB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/CAS/) | TBD | 
 DBK | [1 file, 650 KB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/canonical_smiles/DBK/) | [4 files, 6 MB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/DBK/) | [4 files, 6 MB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/DBK/) | [2 files, 476 MB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/images/DBK/) | 
 DCL | [1 file, 260 KB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/canonical_smiles/DCL/) | [2 files, 4 MB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/DCL/) | [2 files, 4 MB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/DCL/) | [1 file, 196 MB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/images/DCL/) | 
@@ -100,48 +100,32 @@ SAV | [1 file, 28 GB](https://app.globus.org/file-manager?origin_id=a386b552-608
 SUR | [1 file, 1 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/canonical_smiles/SUR/) | [36 files, 2 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/SUR/) | [36 files, 2 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/SUR/) | TBD | 
 ZIN | [1 file, 85 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/canonical_smiles/ZIN/) | [1359 files, 193 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/ZIN/) | [1359 files, 193 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/ZIN/) | TBD | 
 
-Key | Canonical SMILES | Fingerprints | Descriptors | Images
------ | --- | --- | ---  | ---
-BDB | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
-CAS | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
-DCL | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
-DBK | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
-DUD | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
-E15 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
-EDB | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
-EMO | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
-ENA | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
-FFI | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
-G13 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
-G17 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
-HOP | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
-L1K | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA| TBA | TBA
-MOS | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
-PCH | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA| TBA | TBA
-QM9 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
-REP | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
-SAV | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
-SUR | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
-ZIN | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
-
 ## Methodology and Data Formats
 
-### Converting SMILES Canonical Form
+### Converting to SMILES Canonical Form
 {: .no_toc }
-<a href="https://openbabel.org/wiki/Main_Page"> Open Babel </a> is used to convert input SMILES into canonical SMILES
+
+We use [Open Babel](https://openbabel.org/wiki/Main_Page) to convert the simplified molecular-input line-entry system ([SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)) specifications of chemical species obtained from various sources into a consistent canonical smiles representation:
 ```
 obabel {filename} -O can_{filename} -ocan -e
 ```
 
+We organize the resulting molecule specifications in one directory per source dataset, each containing one CSV file with format <SOURCE-KEY, IDENTIFIER, SMILES>, where:
+
+* SOURCE-KEY, as defined above, identifies the source dataset
+* IDENTIFIER is an identifier, either obtained for the source dataset or (if none such is available) defined by us. Identifiers are unique within a dataset, but may not be unique across datasets. Thus it is recommended to use the combination SOURCE-KEY+IDENTIFER to identify molecules.
+* SMILES is a canonical smile as produced by Open Babel
+
 ### Computing Fingerprints
 {: .no_toc }
 
-Fingerprints are computed for each of the molecules using <a href="https://www.rdkit.org">RDKit</a> to create representative bit vectors.
+Fingerprints are computed for each of the molecules using <a href="https://www.rdkit.org">RDKit</a> to create 2048-bit representative bit vectors.
 
 
 ### Calculating Descriptors
 {: .no_toc }
-We generate molecular descriptors using [Mordred](<https://github.com/mordred-descriptor/mordred). The collected descriptors (~1800 for each molecule) include both 2D and 3D descriptors.
+We generate molecular descriptors using [Mordred](https://github.com/mordred-descriptor/mordred). The collected descriptors (~1800 for each molecule) include both 2D and 3D descriptors.
+We organize these descriptors in one directory per source dataset, each containing one or more CSV files with format <SOURCE-KEY, IDENTIFIER, SMILES, DESCRIPTOR>, where SOURCE-KEY, IDENTIFIER, and SMILES are as above, and DESCRIPTOR is a Base64-encoded representation of the 2048-bit Mordred descriptor.
 
 ### Code
 {: .no_toc }
