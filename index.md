@@ -223,8 +223,8 @@ Many aspects of the data and computing infrastructure have been leveraged from o
 
 Data processing and computation:
  * ExaLearn and the <a href="https://www.exascaleproject.org">Exascale Computing Project</a>
- * <a href="https://parsl-project.org">Parsl</a>: parallel scripting libarary (NSF: 1550588)
- * <a href="https://www.funcx.org">funcX</a>: distributed function as a service platform
+ * <a href="https://parsl-project.org">Parsl</a>: parallel scripting libarary (NSF 1550588)
+ * <a href="https://www.funcx.org">funcX</a>: distributed function as a service platform (NSF 2004894)
 
 Data Tools, Services, and Expertise:
  * <a href="https://www.globus.org">Globus</a>: data services for science (authentication, transfer, users, and groups) 
