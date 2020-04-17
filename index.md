@@ -203,8 +203,9 @@ This research used resources of the Argonne Leadership Computing Facility, a DOE
 Many aspects of the data and computing infrastructure have been leveraged from other projects including but not limited to:
 
 Data processing and computation:
- * <a href="https://parsl-project.org">Parsl</a>: parallel scripting libarary (parsl-project.org, NSF: 1550588)
- * <a href="https://www.funcx.org">funcX</a>: distributed function as a service platform (funcX.org)
+ * ExaLearn and the <a href="https://www.exascaleproject.org">Exascale Computing Project</a>
+ * <a href="https://parsl-project.org">Parsl</a>: parallel scripting libarary (NSF: 1550588)
+ * <a href="https://www.funcx.org">funcX</a>: distributed function as a service platform
 
 Data Tools, Services, and Expertise:
  * <a href="https://www.globus.org">Globus</a>: data services for science (authentication, transfer, users, and groups) 
