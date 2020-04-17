@@ -12,7 +12,7 @@ permalink: /
 ## AI- and HPC-enabled Generated Leads for SARS-CoV-2 Drugs
 {: .no_toc }
 
-This repository provides access to data, models, and code produced by the **nCoV Group** in support of research aimed at generating leads for potential SARS-CoV-2 drugs. The data include representations and computed descriptors for around **3.8 billion** small molecules: some 30 TB of data in all, although many useful subsets are much smaller.
+This repository provides access to data, models, and code produced by the **nCoV Group** in support of research aimed at generating leads for potential SARS-CoV-2 drugs. The data include representations and computed descriptors for around **3.8 billion** small molecules: some 100 TB of data in all, although many useful subsets are much smaller.
 
 These data will be updated regularly as the collaboration produces new results. Shared data are located on the ALCF Petrel data store [at this location](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2F), from where they can be retrieved via [Globus](https://www.globus.org). To access the data, users can register for a free Globus account ([here](https://www.globus.org)).
 
@@ -140,6 +140,26 @@ We organize these descriptors in one directory per source dataset, each containi
 ```
 where SMILES and IDENTIFIER are as described above, and the floating point array is the descriptor.
 
+### Creating 2D Molecule Images
+{: .no_toc }
+We use [RDKit](https://www.rdkit.org) to create a 128x128 images of each molecule. 
+
+We organize these data as png formatted images in pickle files that can be read in Python following:
+```python
+import pickle
+p = pickle.load(open(‘/data/pubchem/images/pubchem-0-100.pkl’, 'rb'))
+
+print(p[:5])
+
+[('PC', '', 'CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C', <PIL.PngImagePlugin.PngImageFile image mode=RGB size=128x128 at 0x7F7E1D5259D0>), 
+('PC', '', 'CC(=O)OC(CC(=O)O)C[N+](C)(C)C', <PIL.PngImagePlugin.PngImageFile image mode=RGB size=128x128 at 0x7F7E1D4B8810>), 
+('PC', '', 'C1=CC(C(C(=C1)C(=O)O)O)O', <PIL.PngImagePlugin.PngImageFile image mode=RGB size=128x128 at 0x7F7E1D058E90>), 
+('PC', '', 'CC(CN)O', <PIL.PngImagePlugin.PngImageFile image mode=RGB size=128x128 at 0x7F7E1D058F90>), 
+('PC', '', 'C(C(=O)COP(=O)(O)O)N', <PIL.PngImagePlugin.PngImageFile image mode=RGB size=128x128 at 0x7F7E1D05F090>)]
+
+```
+
+
 ### Code
 {: .no_toc }
 
@@ -159,6 +179,8 @@ Coming Soon
 {: .no_toc }
 Coming Soon
 {: .label .label-yellow }
+
+
 
 
 
