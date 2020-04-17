@@ -12,7 +12,7 @@ permalink: /
 ## AI- and HPC-enabled Generated Leads for SARS-CoV-2 Drugs
 {: .no_toc }
 
-This repository provides access to data, models, and code produced by the **nCoV Group** in support of research aimed at generating leads for potential SARS-CoV-2 drugs. The data include representations and computed descriptors for around **2.8 billion** small molecules: some 50 TB of data in all, although many useful subsets are much smaller.
+This repository provides access to data, models, and code produced by the **nCoV Group** in support of research aimed at generating leads for potential SARS-CoV-2 drugs. The data include representations and computed descriptors for around **3.8 billion** small molecules: some 50 TB of data in all, although many useful subsets are much smaller.
 
 These data will be updated regularly as the collaboration produces new results. Shared data are located on the ALCF Petrel data store [at this location](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2F), from where they can be retrieved via [Globus](https://www.globus.org). To access the data, users can register for a free Globus account ([here](https://www.globus.org)).
 
@@ -100,7 +100,7 @@ REP | [1 file; 623 KB](https://app.globus.org/file-manager?origin_id=a386b552-60
 SAV | [1 file; 28 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/canonical_smiles/SAV/) | [266 files; 55 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/SAV/) | [28,323 files; 2 TB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/descriptors/SAV/) | [26,282 files; 12 TB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/images/SAV/) | 
 SUR | [1 file; 1 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/canonical_smiles/SUR/) | [18 files; 2 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/SUR/) | [1,792 files; 132 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/descriptors/SUR/) | TBD | 
 ZIN | [1 file; 85 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/canonical_smiles/ZIN/) | [1,226 files; 193 GB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/fingerprints/ZIN/) | [147,132 files; 10 TB](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=/release/v1.0/descriptors/ZIN/) | TBD | 
-**Total** | **21 files; 248 GB** | **3,907 files; 571 GB** | **414,476 files; 30 TB** | **412,734 files; 49 TB** | 
+**Total** | **21 files; 248 GB** | **3,907 files; 571 GB** | **414 K files; 30 TB** | **412 K files; 49 TB** | 
 
 ## Methodology and Data Formats
 
