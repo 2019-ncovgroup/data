@@ -145,7 +145,7 @@ where SMILES and IDENTIFIER are as described above, and the floating point array
 Code to help users understand the methodology and use the data are included in the 
 [Globus Labs Covid Analyses](href="https://github.com/globus-labs/covid-analyses) GitHub repository.
 
-##  Data Extraction from Literature to Identify Antiviral Molecules
+##  Data Extraction from Literature
 The data extraction team is working to extract a set of known antiviral molecules that have been previously tested against coronaviruses. 
 This set of molecules will inform future efforts to screen candidates using simulated docking and more. There are two efforts current underway, a manual extraction effort, and an effort to build a named-entity recognition model that aims to automatically from a much larger literature corpus. 
 
