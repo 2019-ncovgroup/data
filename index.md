@@ -119,13 +119,25 @@ We organize the resulting molecule specifications in one directory per source da
 ### Computing Fingerprints
 {: .no_toc }
 
-Fingerprints are computed for each of the molecules using <a href="https://www.rdkit.org">RDKit</a> to create 2048-bit representative bit vectors.
+We use [RDKit](https://www.rdkit.org) to compute a 2034-bit fingerprint for each molecule.
+
+We organize these fingerprints in CSV files with format <SOURCE-KEY, IDENTIFIER, SMILES, FINGERPRINT>, where SOURCE-KEY, IDENTIFIER, and SMILES are as above, and DESCRIPTOR is a Base64-encoded representation of the fingerprint.
 
 
 ### Calculating Descriptors
 {: .no_toc }
 We generate molecular descriptors using [Mordred](https://github.com/mordred-descriptor/mordred). The collected descriptors (~1800 for each molecule) include both 2D and 3D descriptors.
-We organize these descriptors in one directory per source dataset, each containing one or more CSV files with format <SOURCE-KEY, IDENTIFIER, SMILES, DESCRIPTOR>, where SOURCE-KEY, IDENTIFIER, and SMILES are as above, and DESCRIPTOR is a Base64-encoded representation of the 2048-bit Mordred descriptor.
+
+We organize these descriptors in one directory per source dataset, each containing one or more PKL files, each organized internally as a Python dictionary with entries in the form:
+```
+{ SMILES:  (
+    [IDENTIFIER], 
+    NumPy Array[descriptor1, descriptor2, .., descriptorN]
+    ),  
+..
+}
+```
+where SMILES and IDENTIFIER are as described above, and the floating point array is the descriptor.
 
 ### Code
 {: .no_toc }
