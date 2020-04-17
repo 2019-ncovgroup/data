@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "The nCov-Group Data Repository: AI- and HPC-enabled Generated Leads for SARS-CoV-2 Drugs"
 permalink: /
 ---
 
@@ -73,18 +73,50 @@ Follow the links below to access canonical SMILES, molecular fingerprints, descr
 
 Key | Canonical SMILES | Fingerprints | Descriptors | Images
 ----- | --- | --- | ---  | ---
-E15 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline } | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline }
-G13 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
-G17 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
-HOP | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
-L1K | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
-MOS | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
-PCH | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
-QM9 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
-REP | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
-SAV | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
-SUR | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
-ZIN | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline} | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F){: .btn .btn-outline}
+BDB | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
+CAS | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
+DCL | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
+DBK | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
+DUD | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
+E15 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
+EDB | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
+EMO | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
+ENA | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
+FFI | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline } | TBA | TBA | TBA
+G13 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
+G17 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
+HOP | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
+L1K | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA| TBA | TBA
+MOS | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
+PCH | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA| TBA | TBA
+QM9 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
+REP | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
+SAV | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
+SUR | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
+ZIN | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2Fv1.0%2Fsmiles%2F){: .btn .btn-outline} | TBA | TBA | TBA
+
+## Methodology and Data Formats
+
+### Converting SMILES Canonical Form
+{: .no_toc }
+<a href="https://openbabel.org/wiki/Main_Page"> Open Babel </a> is used to convert input SMILES into canonical SMILES
+```
+obabel {filename} -O can_{filename} -ocan -e
+```
+
+### Generating Fingerprints
+{: .no_toc }
+
+
+### Calculating Descriptors
+{: .no_toc }
+We generate molecular descriptors using [Mordred](<https://github.com/mordred-descriptor/mordred). The collected descriptors include both 2D and 3D descriptors.
+
+### Code
+{: .no_toc }
+
+Code to help users understand the methodology and use the data are included in the following repository.
+<a href="https://github.com/globus-labs/covid-analyses">Globus Labs Covid Analyses</a>
 
 ##  Data Extraction from Literature to Identify Antiviral Molecules
 The data extraction team is working to extract a set of known antiviral molecules that have been previously tested against coronaviruses. 
@@ -104,18 +136,6 @@ Coming Soon
 
 
 
-## Methodology and Data Formats
-
-### Converting SMILES Canonical Form
-{: .no_toc }
-
-
-### Generating Fingerprints
-{: .no_toc }
-
-
-### Calculating Descriptors
-{: .no_toc }
 
 
 <!-- ## Contributing
@@ -146,4 +166,15 @@ This research used resources of the Argonne Leadership Computing Facility, which
 ### Comet at the San Diego Supercomputing Center (SDSC)
 {: .no_toc }
 [SDSC](https://www.sdsc.edu){: .btn .btn-outline}
+
+### Data and Computing Infrastructure
+{: .no_toc }
+Many aspects of the data and computing infrastructure have been leveraged from other projects including but not limited to:
+Data processing and computation:
+ * <a href="https://parsl-project.org">Parsl</a>: parallel scripting libarary (parsl-project.org, NSF: 1550588)
+ * <a href="https://www.funcx.org">funcX</a>: distributed function as a service platform (funcX.org)
+
+Data Tools, Services, and Expertise:
+ * <a href="https://www.globus.org">Globus</a>: data services for science (authentication, transfer, users, and groups) 
+ * <a href="https://chimad.northwestern.edu">CHiMaD</a>: <a href="https://materialsdatafacility.org">Materials Data Facility </a> and <a href="http://pppdb.uchicago.edu">Polymer Property Predictor Database</a> (NIST 70NANB19H005 and NIST 70NANB14H012)
 
