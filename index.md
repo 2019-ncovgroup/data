@@ -47,8 +47,8 @@ Key | Description and link | # Molecules
 :-: | --- | --:
 BDB | [The Binding Database](https://www.bindingdb.org/bind/index.jsp) | 1,813,538
 CAS | [CAS COVID-19 Antiviral Candidate Compounds](https://www.cas.org/covid-19-antiviral-compounds-dataset) | 49,437
-DCL | [DrugCentral Online Drug Compendium](http://drugcentral.org) | 3,981
 DBK | [Drugbank](https://www.drugbank.ca) | 9,678
+DCL | [DrugCentral Online Drug Compendium](http://drugcentral.org) | 3,981
 DUD | [DUDE database of useful decoys](http://dude.docking.org) | 99,782
 E15 | 15.5M-molecule subset of ENA | 15,547,091
 EDB | DrugBank plus [Enamine Hit Locator Library 2018](https://enamine.net/hit-finding/diversity-libraries/hit-locator-library-300) | 310,782
@@ -62,11 +62,13 @@ L1K | [L1000](http://www.lincsproject.org) | 10,141 |
 MOS | [Molecular Sets (MOSES)](https://github.com/molecularsets/moses) | 1,936,962
 PCH | [PubChem](https://www.ncbi.nlm.nih.gov/guide/data-software/) | 97,545,266
 QM9 | [QM9 subset of GDB-17](http://quantum-machine.org/datasets/) | 133,885
-REP | [Repurposing related drug and tool compound annotations](https://clue.io/data/REP#REP) | 6,244
+REP | [Repurposing related drug and tool compound annotations](https://clue.io/data/REP#REP) | 10,141
 SAV | [Synthetically Accessible Virtual Inventory (SAVI)](https://cactus.nci.nih.gov/download/savi_download/) | 265,047,097
 SUR | [SureChEMBL dataset of molecules from patents](https://surechembl.org/) | 17,915,384
 ZIN | [ZINC15](http://zinc15.docking.org) | 1,225,804,829
-    |        | **3,891,374,956**
+    |        | **3,891,378,853**
+
+3891378853
 
 Notes:
 {: .label .label-blue }
