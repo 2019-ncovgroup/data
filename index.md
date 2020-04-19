@@ -77,7 +77,7 @@ Notes:
 * These numbers do not account for de-duplication, within or between datasets.
 
 ## Dataset Downloads
-Follow the links below to access canonical SMILES, molecular fingerprints, descriptors, and images (png format) for each dataset. The links in the final row provide access to all SMILES, fingerprints, and images, respectively.
+Follow the links below to access canonical SMILES, molecular fingerprints, descriptors, and images (png format) for each dataset.  The links in the final row provide access to all SMILES, fingerprints, descriptors, and images, respectively.
 
 Key | Canonical SMILES | Fingerprints | Descriptors | Images
 :-: | :-: | :-: | :-:  | :-:
