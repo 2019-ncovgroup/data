@@ -41,32 +41,33 @@ The data processing pipeline is used to compute different types of features and 
 
 ## Dataset Catalog
 We have obtained molecule definitions from the following source datasets.
-For each, we provide a link to the original source and the number of molecules included from the dataset.
+For each, we provide a link to the original source, the number of molecules included from the dataset,
+and the percentage of those molecules that are not found in any other listed dataset.
 
-Key | Description and link | # Molecules
-:-: | --- | --:
-BDB | [The Binding Database](https://www.bindingdb.org/bind/index.jsp) | 1,813,538
-CAS | [CAS COVID-19 Antiviral Candidate Compounds](https://www.cas.org/covid-19-antiviral-compounds-dataset) | 49,437
-DBK | [Drugbank](https://www.drugbank.ca) | 9,678
-DCL | [DrugCentral Online Drug Compendium](http://drugcentral.org) | 3,981
-DUD | [DUDE database of useful decoys](http://dude.docking.org) | 99,782
-E15 | 15.5M-molecule subset of ENA | 15,547,091
-EDB | DrugBank plus [Enamine Hit Locator Library 2018](https://enamine.net/hit-finding/diversity-libraries/hit-locator-library-300) | 310,782
-EMO | [eMolecules](https://www.emolecules.com/info/products-data-downloads.html) | 25,946,988
-ENA | [Enamine REAL Database](https://enamine.net/library-synthesis/real-compounds/real-database) | 1,211,723,723
-FFI | [CureFFI FDA-approved drugs and CNS drugs](https://www.cureffi.org/2013/10/04/list-of-fda-approved-drugs-and-cns-drugs-with-smiles/) | 1,497
-G13 | [GDB-13 small organic molecules up to 13 atoms of C, N, O, S and Cl](http://gdb.unibe.ch/downloads/)| 977,468,301
-G17 | [GDB-17-Set subset of up to 17 atom extension of GDB-13](http://gdb.unibe.ch/downloads/)| 50,000,000
-HOP | [Harvard Organic Photovoltaic Dataset](https://www.nature.com/articles/sdata201686) | 350
-L1K | [L1000](http://www.lincsproject.org) | 10,141 |
-MOS | [Molecular Sets (MOSES)](https://github.com/molecularsets/moses) | 1,936,962
-PCH | [PubChem](https://www.ncbi.nlm.nih.gov/guide/data-software/) | 97,545,266
-QM9 | [QM9 subset of GDB-17](http://quantum-machine.org/datasets/) | 133,885
-REP | [Repurposing related drug and tool compound annotations](https://clue.io/data/REP#REP) | 10,141
-SAV | [Synthetically Accessible Virtual Inventory (SAVI)](https://cactus.nci.nih.gov/download/savi_download/) | 265,047,097
-SUR | [SureChEMBL dataset of molecules from patents](https://surechembl.org/) | 17,915,384
-ZIN | [ZINC15](http://zinc15.docking.org) | 1,225,804,829
-    |        | **3,891,378,853**
+Key | Description and link | # Molecules | % Unique
+:-: | --- | --: | --:
+BDB | [The Binding Database](https://www.bindingdb.org/bind/index.jsp) | 1,813,538 | 20.44
+CAS | [CAS COVID-19 Antiviral Candidate Compounds](https://www.cas.org/covid-19-antiviral-compounds-dataset) | 49,437 | 55.46
+DBK | [Drugbank](https://www.drugbank.ca) | 9,678 | 76.07
+DCL | [DrugCentral Online Drug Compendium](http://drugcentral.org) | 3,981 | 2.41
+DUD | [DUDE database of useful decoys](http://dude.docking.org) | 99,782 | 99.74
+E15 | [15.5M-molecule subset of ENA | 15,547,091 | 99.73
+EDB | [DrugBank plus [Enamine Hit Locator Library 2018](https://enamine.net/hit-finding/diversity-libraries/hit-locator-library-300) | 310,782 | 61.20
+EMO | [eMolecules](https://www.emolecules.com/info/products-data-downloads.html) | 25,946,988 | 93.93
+ENA | [Enamine REAL Database](https://enamine.net/library-synthesis/real-compounds/real-database) | 1,211,723,723 | 85.90
+FFI | [CureFFI FDA-approved drugs and CNS drugs](https://www.cureffi.org/2013/10/04/list-of-fda-approved-drugs-and-cns-drugs-with-smiles/) | 1,497 | 12.22
+G13 | [GDB-13 small organic molecules up to 13 atoms of CNOSCl](http://gdb.unibe.ch/downloads/) | 977,468,301 | 99.51
+G17 | [GDB-17-Set subset of up to 17 atom extension of GDB-13](http://gdb.unibe.ch/downloads/) | 50,000,000 | 99.98
+HOP | [Harvard Organic Photovoltaic Dataset](https://www.nature.com/articles/sdata201686) | 350 | 83.71
+L1K | [L1000](http://www.lincsproject.org) | 10,141 | 0.00
+MOS | [Molecular Sets (MOSES)](https://github.com/molecularsets/moses) | 1,936,962 | 81.33
+PCH | [PubChem](https://www.ncbi.nlm.nih.gov/guide/data-software/) | 97,545,266 | 48.48
+QM9 | [QM9 subset of GDB-17](http://quantum-machine.org/datasets/) | 133,885 | 84.04
+REP | [Repurposing related drug and tool compound annotations](https://clue.io/data/REP#REP) | 10,141 | 0.00
+SAV | [Synthetically Accessible Virtual Inventory (SAVI)](https://cactus.nci.nih.gov/download/savi_download/) | 265,047,097 | 99.79
+SUR | [SureChEMBL dataset of molecules from patents](https://surechembl.org/) | 17,915,384 | 9.84
+ZIN | [ZINC15](http://zinc15.docking.org) | 1,225,804,829 | 85.10
+**Total** | | **3,891,378,853** | 
 
 3891378853
 
