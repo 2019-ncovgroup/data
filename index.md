@@ -167,7 +167,7 @@ print(p[:5])
 {: .no_toc }
 
 Code to help users understand the methodology and use the data are included in the 
-[Globus Labs Covid Analyses](href="https://github.com/globus-labs/covid-analyses) GitHub repository.
+[Globus Labs Covid Analyses](https://github.com/globus-labs/covid-analyses) GitHub repository.
 
 ##  Data Extraction from Literature
 The data extraction team is working to extract a set of known antiviral molecules that have been previously tested against coronaviruses. 
