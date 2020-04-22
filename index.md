@@ -124,7 +124,7 @@ We organize the resulting molecule specifications in one directory per source da
 ### Computing Fingerprints
 {: .no_toc }
 
-We use [RDKit](https://www.rdkit.org) to compute a 2048-bit fingerprint for each molecule.
+We use [RDKit](https://www.rdkit.org) to compute a 2048-bit  fingerprint for each molecule.
 
 We organize these fingerprints in CSV files with format <SOURCE-KEY, IDENTIFIER, SMILES, FINGERPRINT>, where SOURCE-KEY, IDENTIFIER, and SMILES are as above, and DESCRIPTOR is a Base64-encoded representation of the fingerprint.
 
