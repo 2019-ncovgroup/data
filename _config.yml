@@ -36,10 +36,9 @@ heading_anchors: true
 # aux_links:
 #   "Just the Docs on GitHub":
 #     - "//github.com/pmarsceill/just-the-docs"
-
 # Footer content appears at the bottom of every page's main content
-footer_content: "<div> The contents of this repository website are for research and educational purposes only. </div>
-                 <div> Copyright &copy; 2020 Argonne National Laboratory and the University of Chicago</div>
+footer_content: "<div><b> For Scientific and Technical Information Only </b></div>
+                 <div> Copyright &copy; UChicago Argonne, LLC., All Rights Reserved.</div>
                  <p class='text-small text-grey-dk-000 mb-4'>This site uses the <a href='https://github.com/pmarsceill/just-the-docs'>Just the Docs</a> documentation theme</p>
 "
 

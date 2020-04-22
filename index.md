@@ -197,6 +197,8 @@ Information on how to contribute to this project will be added shortly. -->
 
 ## Acknowledgements
 
+Research was supported by the DOE Office of Science through the [National Virtual Biotechnology Laboratory](https://science.osti.gov/nvbl), a consortium of DOE national laboratories focused on response to COVID-19, with funding provided by the Coronavirus CARES Act.
+
 Data storage and computational support for this research project has been generously supported by the following resources. The data generated have been prepared as part of the nCov-Group Collaboration, a group of over 200 researchers working to use computational techniques to address various challenges associated with COVID-19.
 
 ### Petrel Data Service at the Argonne Leadership Computing Facility (ALCF)
@@ -234,3 +236,8 @@ Data Tools, Services, and Expertise:
  * <a href="https://www.globus.org">Globus</a>: data services for science (authentication, transfer, users, and groups) 
  * <a href="https://chimad.northwestern.edu">CHiMaD</a>: <a href="https://materialsdatafacility.org">Materials Data Facility </a> and <a href="http://pppdb.uchicago.edu">Polymer Property Predictor Database</a> (NIST 70NANB19H005 and NIST 70NANB14H012)
 
+## Disclaimer
+### For All Information
+Unless otherwise indicated, this information has been authored by an employee or employees of the UChicago Argonne, LLC., operator of the Argonne National laboratory with the U.S. Department of Energy. The U.S. Government has rights to use, reproduce, and distribute this information. The public may copy and use this information without charge, provided that this Notice and any statement of authorship are reproduced on all copies.
+
+While every effort has been made to produce valid data, by using this data, User acknowledges that neither the Government nor UChicago Argonne LLC. makes any warranty, express or implied, of either the accuracy or completeness of this information or assumes any liability or responsibility for the use of this information. Additionally, this information is provided solely for research purposes and is not provided for purposes of offering medical advice. Accordingly, the U.S. Government and UChicago Argonne LLC. are not to be liable to any user for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with use of or reliance on the content displayed on this site.
