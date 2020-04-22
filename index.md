@@ -51,8 +51,8 @@ CAS | [CAS COVID-19 Antiviral Candidate Compounds](https://www.cas.org/covid-19-
 DBK | [Drugbank](https://www.drugbank.ca) | 9,678 | 76.1
 DCL | [DrugCentral Online Drug Compendium](http://drugcentral.org) | 3,981 | 2.4
 DUD | [DUDE database of useful decoys](http://dude.docking.org) | 99,782 | 99.7
-E15 | [15.5M-molecule subset of ENA | 15,547,091 | 99.7
-EDB | [DrugBank plus [Enamine Hit Locator Library 2018](https://enamine.net/hit-finding/diversity-libraries/hit-locator-library-300) | 310,782 | 61.2
+E15 | 15.5M-molecule subset of ENA | 15,547,091 | 99.7
+EDB | DrugBank plus [Enamine Hit Locator Library 2018](https://enamine.net/hit-finding/diversity-libraries/hit-locator-library-300) | 310,782 | 61.2
 EMO | [eMolecules](https://www.emolecules.com/info/products-data-downloads.html) | 25,946,988 | 93.9
 ENA | [Enamine REAL Database](https://enamine.net/library-synthesis/real-compounds/real-database) | 1,211,723,723 | 85.9
 FFI | [CureFFI FDA-approved drugs and CNS drugs](https://www.cureffi.org/2013/10/04/list-of-fda-approved-drugs-and-cns-drugs-with-smiles/) | 1,497 | 12.2
@@ -68,8 +68,6 @@ SAV | [Synthetically Accessible Virtual Inventory (SAVI)](https://cactus.nci.nih
 SUR | [SureChEMBL dataset of molecules from patents](https://surechembl.org/) | 17,915,384 | 9.8
 ZIN | [ZINC15](http://zinc15.docking.org) | 1,225,804,829 | 85.1
 **Total** | | **3,891,378,853** |
-
-3891378853
 
 Notes:
 {: .label .label-blue }
@@ -238,6 +236,7 @@ Data Tools, Services, and Expertise:
 
 ## Disclaimer
 ### For All Information
+{: .no_toc }
 Unless otherwise indicated, this information has been authored by an employee or employees of the UChicago Argonne, LLC., operator of the Argonne National laboratory with the U.S. Department of Energy. The U.S. Government has rights to use, reproduce, and distribute this information. The public may copy and use this information without charge, provided that this Notice and any statement of authorship are reproduced on all copies.
 
 While every effort has been made to produce valid data, by using this data, User acknowledges that neither the Government nor UChicago Argonne LLC. makes any warranty, express or implied, of either the accuracy or completeness of this information or assumes any liability or responsibility for the use of this information. Additionally, this information is provided solely for research purposes and is not provided for purposes of offering medical advice. Accordingly, the U.S. Government and UChicago Argonne LLC. are not to be liable to any user for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with use of or reliance on the content displayed on this site.
