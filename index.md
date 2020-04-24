@@ -14,9 +14,7 @@ permalink: /
 
 This repository provides access to data, models, and code produced by the **nCoV Group** in support of research aimed at generating leads for potential SARS-CoV-2 drugs. The data include representations and computed descriptors for around **3.8 billion** small molecules: some 80 TB of data in all, although many useful subsets are much smaller.
 
-These data will be updated regularly as the collaboration produces new results. Shared data are located on the ALCF Petrel data store [at this location](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2F), from where they can be retrieved via [Globus](https://www.globus.org). To access the data, users can register for a free Globus account ([here](https://www.globus.org)).
-
-
+These data will be updated regularly as the collaboration produces new results. Shared data are located on the ALCF Petrel data store [at this location](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Frelease%2F), from where they can be retrieved via [Globus](https://www.globus.org). To access the data, users should 1) register for a free Globus account ([here](https://www.globus.org)) and 2) request group membership [here](https://app.globus.org/groups/a76708ad-8638-11ea-bbe2-0e2053f596b5/about).
 
 ## Table of contents
 {: .no_toc }
