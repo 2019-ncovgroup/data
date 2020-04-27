@@ -138,8 +138,6 @@ def retrieve_values(type):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Program to generate the second table on nCoV web page.')
-    parser.add_argument('-D', '--definitions', help='definitions file', default='DEFINITIONS.csv')
-    parser.add_argument('-U', '--uniques', help='uniques file', default='UNIQUES.csv')
     parser.add_argument('-o', '--output', help='output directory', default='outputs')
     args = parser.parse_args()
 
