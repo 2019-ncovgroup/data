@@ -9,7 +9,7 @@ permalink: /
 # The nCov-Group Data Repository
 {: .fs-9 .no_toc }
 
-## AI- and HPC-enabled Generated Leads for SARS-CoV-2 Drugs
+## Targeting SARS-CoV-2 with AI- and HPC-enabled Lead Generation
 {: .no_toc }
 
 This repository provides access to data, models, and code produced by the **nCoV Group** in support of research aimed at generating leads for potential SARS-CoV-2 drugs. The data include representations and computed descriptors for around **4.2 billion** small molecules: some 60 TB of data in all, although many useful subsets are much smaller.
@@ -27,13 +27,10 @@ Note:
 A manuscript describing these data and the associated methodology and processing pipelines is under preparation. A link will be posted here when it is available.
 
 ## Data Processing Pipeline
-The data processing pipeline is used to compute different types of features and representations of billions of small molecules.  The pipeline first converts the SMILES representation for each molecule to **a canonical SMILES form**. (De-duplication is in progress.) It then creates, for each molecule, three different types of features:
-1) **molecular fingerprints** that encode the structure of molecules;
-2) **molecular descriptors** (using [Mordred](https://github.com/mordred-descriptor/mordred)); and
-3) **2D images** of the molecular structure.  These features are being used as input to various machine learning and deep learning models that predict important characteristics including docking scores, toxicity, and more.
-
+The data processing pipeline is used to compute different types of features and representations of billions of small molecules.  The pipeline is first used to convert the SMILES representation for each molecule to a canonical SMILES to allow for de-duplication and consistency across data sources.  Next, for each molecule, three different types of features are computed:  1) molecular fingerprints that encode the structure of molecules;  2) 2D and 3D molecular descriptors;  and 3)  2D  images  of  the  molecular  structure.   These  features  are  being  used  as  input  to  various machine learning and deep learning models that will be used to predict important characteristics of candidate molecules including docking scores, toxicity, and more.
 
 ![Data processing pipeline](./assets/images/pipeline.png)
+**Figure 1:  The computational pipeline that is used to enrich the data collected from includeddatasets.  After  collection,  each  molecule  in  each  dataset  has  canonical  SMILES,  2D  and 3D  molecular  features,  fingerprints,  and  images  computed.   These  enrichments  simplifymolecule disambiguation, ML-guided compound screening, similarity searching, and neuralnetwork training respectively.**
 
 ---
 
@@ -46,6 +43,7 @@ Key | Description and link | # Molecules | % Uniq
 :-: | --- | --: | --:
 BDB | [The Binding Database](https://www.bindingdb.org/bind/index.jsp) | 1,813,538 | 20.4
 CAS | [CAS COVID-19 Antiviral Candidate Compounds](https://www.cas.org/covid-19-antiviral-compounds-dataset) | 49,437 | 55.5
+CHM | CheMBL db of bioactive mols with drug-like properties | 1,940,732 |
 DBK | [Drugbank](https://www.drugbank.ca) | 9,678 | 76.1
 DCL | [DrugCentral Online Drug Compendium](http://drugcentral.org) | 3,981 | 2.4
 DUD | [DUDE database of useful decoys](http://dude.docking.org) | 99,782 | 99.7
@@ -57,15 +55,17 @@ FFI | [CureFFI FDA-approved drugs and CNS drugs](https://www.cureffi.org/2013/10
 G13 | [GDB-13 small organic molecules up to 13 atoms](http://gdb.unibe.ch/downloads/) | 977,468,301 | 99.5
 G17 | [GDB-17-Set up to 17 atom extension of GDB-13](http://gdb.unibe.ch/downloads/) | 50,000,000 | 100.0
 HOP | [Harvard Organic Photovoltaic Dataset](https://www.nature.com/articles/sdata201686) | 350 | 83.7
+LIT | COVID-relevant small mols extracted from literature | 803 |
 L1K | [L1000](http://www.lincsproject.org) | 10,141 | 0.0
 MOS | [Molecular Sets (MOSES)](https://github.com/molecularsets/moses) | 1,936,962 | 81.3
+MCU | MCULE compound database | 45,472,755 |
 PCH | [PubChem](https://www.ncbi.nlm.nih.gov/guide/data-software/) | 97,545,266 | 48.5
 QM9 | [QM9 subset of GDB-17](http://quantum-machine.org/datasets/) | 133,885 | 84.0
 REP | [Repurposing-related drug/tool compounds](https://clue.io/data/REP#REP) | 10,141 | 0.0
 SAV | [Synthetically Accessible Virtual Inventory (SAVI)](https://cactus.nci.nih.gov/download/savi_download/) | 265,047,097 | 99.8
 SUR | [SureChEMBL dataset of molecules from patents](https://surechembl.org/) | 17,915,384 | 9.8
 ZIN | [ZINC15](http://zinc15.docking.org) | 1,225,804,829 | 85.1
-**Total** | | **3,891,378,853** |
+**Total** | | **4,206,934,042** |
 
 Notes:
 {: .label .label-blue }
@@ -101,64 +101,46 @@ SUR | [1 file; 1 GB](https://app.globus.org/file-manager?origin_id=d681db96-9acc
 ZIN | [1 file; 85 GB](https://app.globus.org/file-manager?origin_id=d681db96-9acc-11ea-b3c7-0ae144191ee3&origin_path=/v1/canonical_smiles/ZIN/) | [1,226 files; 193 GB](https://app.globus.org/file-manager?origin_id=d681db96-9acc-11ea-b3c7-0ae144191ee3&origin_path=/v1/fingerprints/ZIN/) | [147,132 files; 10 TB](https://app.globus.org/file-manager?origin_id=d681db96-9acc-11ea-b3c7-0ae144191ee3&origin_path=/v1/descriptors/ZIN/) | TBD | 
 **Total** | [**21 files; 248 GB**](https://app.globus.org/file-manager?origin_id=d681db96-9acc-11ea-b3c7-0ae144191ee3&origin_path=/v1/canonical_smiles) | [**3,907 files; 571 GB**](https://app.globus.org/file-manager?origin_id=d681db96-9acc-11ea-b3c7-0ae144191ee3&origin_path=/v1/fingerprints) | [**414 K files; 30 TB**](https://app.globus.org/file-manager?origin_id=d681db96-9acc-11ea-b3c7-0ae144191ee3&origin_path=/v1/descriptors) | [**412 K files; 49 TB**](https://app.globus.org/file-manager?origin_id=d681db96-9acc-11ea-b3c7-0ae144191ee3&origin_path=/v1/images) | 
 
-## Methodology and Data Formats
+## Methodology and Data Processing Pipeline
 
-### Converting to SMILES Canonical Form
+
+### Canonical Molecular Structures
 {: .no_toc }
 
-We use [Open Babel](https://openbabel.org/wiki/Main_Page) to convert the simplified molecular-input line-entry system ([SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)) specifications of chemical species obtained from various sources into a consistent canonical smiles representation:
+We use [Open Babel v3.0](https://openbabel.org/wiki/Main_Page) to convert the simplified molecular-input line-entry system (SMILES)specifications of chemical species obtained from various sources into a consistent canonical smilesrepresentation.   We  organize  the  resulting  molecule  specifications  in  one  directory  per  source dataset, each containing one CSV file with columns [SOURCE-KEY, IDENTIFIER, SMILES],where SOURCE-KEY identifies the source dataset; IDENTIFIER is an identifier either obtainedfrom the source dataset or, if none such is available, defined internally; and SMILES is a canon-ical SMILES as produced by Open Babel.  Identifiers are unique within a dataset, but may notbe unique across datasets.  Thus, the combination of (SOURCE-KEY, IDENTIFIER) is needed to identify molecules uniquely.  We obtain the canonical SMILES by using the following Open Babel command
 ```
-obabel {filename} -O can_{filename} -ocan -e
+obabel {inputfilename} -O{outputfilename} -ocan -e
 ```
 
-We organize the resulting molecule specifications in one directory per source dataset, each containing one CSV file with format <SOURCE-KEY, IDENTIFIER, SMILES>, where:
-
-* SOURCE-KEY, as defined above, identifies the source dataset
-* IDENTIFIER is an identifier, either obtained for the source dataset or (if none such is available) defined by us. Identifiers are unique within a dataset, but may not be unique across datasets. Thus it is recommended to use the combination SOURCE-KEY+IDENTIFER to identify molecules.
-* SMILES is a canonical smile as produced by Open Babel
-
-### Computing Fingerprints
+### Molecular Fingerprints
 {: .no_toc }
+We use [RDKit](https://www.rdkit.org) (version 2019.09.3) to compute a 2048-bit fingerprint for each molecule.  Weorganize these fingerprints in CSV files with each row with columns [SOURCE-KEY, IDENTI-FIER, SMILES, FINGERPRINT], where SOURCE-KEY, IDENTIFIER, and SMILES are asdefined in Table 2, and FINGERPRINT is a Base64-encoded representation of the fingerprint. In Figure 2, we show an example of how to load the fingerprint data from a batch file within individual dataset using Python 3.  Further examples of how to use fingerprints are available inthe accompanying [GitHub repository](https://github.com/globus-labs/covid-analyses).
 
-We use [RDKit](https://www.rdkit.org) to compute a 2048-bit  fingerprint for each molecule.
+![Working with fingerprint files](./assets/images/ncov-fingerprint.png)
+**Figure 2:  A simple Python code example showing how to load data from a fingerprint file.(This and other examples are accessible in the accompanying [GitHub repository](https://github.com/globus-labs/covid-analyses).**
 
-We organize these fingerprints in CSV files with format <SOURCE-KEY, IDENTIFIER, SMILES, FINGERPRINT>, where SOURCE-KEY, IDENTIFIER, and SMILES are as above, and DESCRIPTOR is a Base64-encoded representation of the fingerprint.
 
-
-### Calculating Descriptors
+### Molecular Descriptors
 {: .no_toc }
-We generate molecular descriptors using [Mordred](https://github.com/mordred-descriptor/mordred). The collected descriptors (~1800 for each molecule) include both 2D and 3D descriptors.
+We generate molecular descriptors using [Mordred](https://github.com/mordred-descriptor/mordred)(version 1.2.0).  The collected descriptors(∼1800  for  each  molecule)  include  descriptors  for  both  2D  and  3D  molecular  features.   Weorganize  these  descriptors  in  one  directory  per  source  dataset,  each  containing  one  or  moreCSV  files.   Each  row  in  the  CSV  file  has  columns  [SOURCE-KEY,  IDENTIFIER,  SMILES, DESCRIPTOR_1...   DESCRIPTOR_N].   In  Figure  3,  we  show  how  to  load  the  data  for  anindividual dataset (e.g., FFI) using Python 3 and explore its shape (Figure 3-left), and create a TSNE embedding to explore the molecular descriptor space (Figure 3-right).
 
-We organize these descriptors in one directory per source dataset, each containing one or more PKL files, each organized internally as a Python dictionary with entries in the form:
-```
-{ SMILES:  (
-    [IDENTIFIER], 
-    NumPy Array[descriptor1, descriptor2, .., descriptorN]
-    ),  
-..
-}
-```
-where SMILES and IDENTIFIER are as described above, and the floating point array is the descriptor.
+![Working with descriptors files](./assets/images/ncov-descriptors.png)
+**Figure  3:  Molecular  descriptor  examples:  (left)  load  descriptor  data  and  (right)  create  asimple TSNE projection of the FFI dataset.**
 
-### Creating 2D Molecule Images
+
+### Molecular Images
 {: .no_toc }
-We use [RDKit](https://www.rdkit.org) to create a 128x128 images of each molecule. 
+Images for each molecule were generated using a custom script [44] to read the canonical SMILES structure with [RDKit](https://www.rdkit.org), kekulize the structure, handle conformers, draw the molecule with rd-kit.Chem.Draw, and save the file as a PNG-format image with size 128×128 pixels.  For each dataset, individual pickle files are saved containing batches of 10 000 images for ease of use, with entries in the format (SOURCE, IDENTIFIER, SMILES, image in PIL format).  In Figure 4, weshow an example of loading and display image data from a batch of files from the FFI dataset.
 
-We organize these data as png formatted images in pickle files that can be read in Python following:
-```python
-import pickle
-p = pickle.load(open(‘/data/pubchem/images/pubchem-0-100.pkl’, 'rb'))
+![Working with descriptors files](./assets/images/ncov-images.png){:height="80%" width="80%"}
 
-print(p[:5])
+**Figure 4:  Molecular image examples.  The examples show how to (top) load the data and (bottom) display a subset of the images using matplotlib.**
 
-[('PC', '', 'CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C', <PIL.PngImagePlugin.PngImageFile image mode=RGB size=128x128 at 0x7F7E1D5259D0>), 
-('PC', '', 'CC(=O)OC(CC(=O)O)C[N+](C)(C)C', <PIL.PngImagePlugin.PngImageFile image mode=RGB size=128x128 at 0x7F7E1D4B8810>), 
-('PC', '', 'C1=CC(C(C(=C1)C(=O)O)O)O', <PIL.PngImagePlugin.PngImageFile image mode=RGB size=128x128 at 0x7F7E1D058E90>), 
-('PC', '', 'CC(CN)O', <PIL.PngImagePlugin.PngImageFile image mode=RGB size=128x128 at 0x7F7E1D058F90>), 
-('PC', '', 'C(C(=O)COP(=O)(O)O)N', <PIL.PngImagePlugin.PngImageFile image mode=RGB size=128x128 at 0x7F7E1D05F090>)]
+### Data Access
+Providing access to such a large quantity of heterogeneous data (currently ~60 TB) is challeng-ing.  We use [Globus](https://www.globus.org) to handle authentication and authorization, and to enable high-speed,reliable access to the data. Access to this data is available to anyone following authentication via institutional credentials, an ORCID profile, a Google account, or many other common identities.  Users can access the data through a web user interface shown in Fig. 5, facilitating easy browsing, direct download via HTTPS of smaller files, and high-speed, reliable transfer of larger data files to their laptop or a computing cluster via Globus Connect Personal or an instance of Globus Connect Server.  There are more than 20 000 active Globus endpoints distributed around the world.  Users may also access the data with a full-featured Python SDK. More details on Globus can be found athttps://www.globus.org.
 
-```
-
+![Globus data access](./assets/images/ncov-globus.png)
+**Figure 5:  Data access with Globus.  All data are stored on Globus endpoints, allowing usersto  access,  move,  and  share  the  data  through  a  web  interface  (pictured  above),  a  REST API,  or  with  a  Python  client.   The  user  here  has  just  transferred  the  first  three  files  of descriptors associated with the E15 dataset to an endpoint at UChicago.**
 
 ### Code
 {: .no_toc }
