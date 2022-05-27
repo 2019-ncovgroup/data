@@ -62,7 +62,7 @@ FFI | [CureFFI FDA-approved drugs and CNS drugs](https://www.cureffi.org/2013/10
 G13 | [GDB-13 small organic molecules up to 13 atoms](http://gdb.unibe.ch/downloads/) | 977,468,301 | 99.5
 G17 | [GDB-17-Set up to 17 atom extension of GDB-13](http://gdb.unibe.ch/downloads/) | 50,000,000 | 100.0
 HOP | [Harvard Organic Photovoltaic Dataset](https://www.nature.com/articles/sdata201686) | 350 | 83.7
-LIT | COVID-relevant small mols extracted from literature | 803 |
+LIT | [COVID-relevant small mols extracted from literature](https://doi.org/10.26311/LIT) | 803 |
 MOS | [Molecular Sets (MOSES)](https://github.com/molecularsets/moses) | 1,936,962 | 81.3
 MCU | [MCULE compound database](https://mcule.com) | 45,472,755 |
 PCH | [PubChem](https://www.ncbi.nlm.nih.gov/guide/data-software/) | 97,545,266 | 48.5
